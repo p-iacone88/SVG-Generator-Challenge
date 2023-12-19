@@ -14,11 +14,11 @@ import('inquirer')
       }
     
       render() {
-        return `<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="300" height="200">${this.shapeElement}${this.textElement}</svg>`;
+        return `<svg version='1.1' xmlns='http://www.w3.org/2000/svg' width='300' height='200'>${this.shapeElement}${this.textElement}</svg>`;
       }
     
       setTextElement(text, color) {
-        this.textElement = `<text x="150" y="125" font-size="60" text-anchor="middle" fill="${color}">${text}</text>`;
+        this.textElement = `<text x='150' y='125' font-size='60' text-anchor='middle' fill='${color}'>${text}</text>`;
       }
     
       setShapeElement(shape) {
@@ -65,7 +65,7 @@ import('inquirer')
     }
     
     async function init() {
-      console.log("Starting initialization");
+      console.log('Starting initialization');
       const svg_file = 'logo.svg';
     
       try {
@@ -97,12 +97,12 @@ import('inquirer')
           const svgString = svg.render();
     
           console.log(`Displaying shape:\n\n${svgString}`);
-          console.log("Shape generation complete!");
-          console.log("Writing shape to file...");
+          console.log('Shape generation complete!');
+          console.log('Writing shape to file...');
     
           await writeToFile(svg_file, svgString);
         } else {
-          console.log("Invalid shape!");
+          console.log('Invalid shape!');
         }
       } catch (error) {
         console.error('An error occurred:', error);
