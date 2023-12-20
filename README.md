@@ -2,6 +2,10 @@ https://github.com/p-iacone88/SVG-Generator-Challenge/assets/50248763/de0968db-2
 
 https://github.com/p-iacone88/SVG-Generator-Challenge/assets/50248763/7c00fb2c-650a-40f7-892d-00469712e850
 
+https://watch.screencastify.com/v/Rq7u9AqO6m9nsJht3Wzc
+
+https://watch.screencastify.com/v/BSjnVUfJ2Z2wCZhtnXhT
+
 # 10 Object-oriented Programming: SVG Logo Maker
 
 ## Your Task
