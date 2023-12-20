@@ -2,9 +2,9 @@
 
 ## Description
 
-This Node.js command-line application is a practical tool for quick and easy SVG logo creation. This project provides a readily available, DIY solution for generating logos. Building this application pushed me to master new skills and concepts while practicing a practical application for Object-Based-Programming. I delved deeper into Node.js, explored the details of SVG file creation, built classes, and gained valuable experience in building a user-friendly command-line interface. The process also highlighted the importance of modularity and code organization, as I structured the application for clean and maintainable code.
+This Node.js command-line application is a practical tool for quick and easy SVG logo creation. This project provides a readily available, DIY solution for generating logos. Building this application pushed me to master new skills and concepts while practicing a practical application for Object-Based-Programming. I delved deeper into object oriented programming (OOP), Node.js, Jest for running the unit tests, Inquirer for collecting input from the user, explored the details of SVG file creation, and gained valuable experience in building a user-friendly command-line interface. The process also highlighted the importance of modularity and code organization, as I structured the application for clean and maintainable code.
 
-The user can choose up to 3 characters for the logo text, choose one of three shapes, choose a background color for the shape, as well as choose the font color for the logo text.
+Through this command line application the user can choose up to 3 characters for the logo text, choose one of three shapes, choose a background color for the shape, as well as choose the font color for the logo text. A logo.svg file will be created in the same directory which the user can open in a browser before incorporating into a webpage.
 
 ## Table of Contents
 
@@ -81,7 +81,8 @@ https://drive.google.com/file/d/177pdorjdLFmrO-EAo9dWIANO3rhAYEj-/view
 
 ## Credits
 
-Project inspired by the edX Full-Stack Web Development Boot Camp
+Project inspired by the edX Full-Stack Web Development Boot Camp.
+Personal tutoring provided by Alexis San Javier and Dru Sanchez.
 
 SVG resources:
 
